@@ -1,0 +1,16 @@
+current directory: /media/lakshy/Lakshy's Files/Workstation/lakshy-sharma.github.io/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20221207-36074-xdkf5r.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /media/lakshy/Lakshy's Files/Workstation/lakshy-sharma.github.io/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /media/lakshy/Lakshy's Files/Workstation/lakshy-sharma.github.io/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /media/lakshy/Lakshy's Files/Workstation/lakshy-sharma.github.io/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20221207-36074-23prme
