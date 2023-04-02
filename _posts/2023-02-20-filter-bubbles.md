@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Privacy, Internet & Filter Bubbles: When Technology Backfires."
+title: "How Filter Bubbles Shape Our Worldview: Understanding the Role of Algorithms in Online Content"
 date: 2021-07-05
 author: "Lakshy Sharma"
 ---
