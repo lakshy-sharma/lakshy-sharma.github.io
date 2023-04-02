@@ -138,7 +138,7 @@ What can we do as individuals?
 
 Let's use technology wisely and prevent it from using us.
 
-*Alvida*
+*Thank You*
 
 Note: If you believe you have found a technical mistake in my blog post, please contact me via email.
 
