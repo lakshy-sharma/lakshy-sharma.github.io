@@ -59,12 +59,11 @@ You may wonder why anyone would pay for metadata. The truth is, just because som
 
 It is important to note that metadata is not always harmless. Simple Google searches can reveal many instances where the FBI has used metadata to track down criminals. If the FBI can use metadata for legitimate purposes, then a person with malicious intent can use it for bad purposes as well. It is always wise to find out what a company considers to be metadata and how they use it. You can find this information in their privacy policy.
 
-Overall, the discussion of advertisements in software is a complex topic with many different perspectives. Therefore, it deserves its own post, and I will not delve further into it here.
+Meanwhile lets have a look at the ethics of metadata processing.
 
 ### Is it Ethical to Use Metadata for Profit?
 
 **Before we begin**: I don't believe it's anyone's place to tell you how your data should be treated. It's always up to you to determine the value of your data. This section simply reflects my personal views, and you're free to disagree.
-To discuss ethics of metadata processing we must understand how it is done.
 
 To discuss the ethics of metadata processing, we must first understand how it's collected. Metadata is typically gathered through one or more of the following methods:
 
@@ -79,8 +78,6 @@ To discuss the ethics of metadata processing, we must first understand how it's 
 Once collected, the metadata is processed to create groups of "similar people" and the data is then sold to organizations for use in targeted advertising.
 
 But where do ethics come into play?
-
-One argument in favor of using metadata for profit is that it can be considered payment for the services you've used. However, I believe this is only ethical if the user is fully aware of what data is being collected and how it's being used. If a service is advertised as "free," then selling user data cannot be considered a fair payment.
 
 One argument in favor of using metadata for profit is that it can be considered payment for the services you've used. However, I believe this is only ethical if the user is fully aware of what data is being collected and how it's being used. If a service is advertised as "free," then selling user data cannot be considered a fair payment.
 
@@ -142,7 +139,7 @@ Let's use technology wisely and prevent it from using us.
 
 Note: If you believe you have found a technical mistake in my blog post, please contact me via email.
 
-## Refrences
+## References
 
 1. Pariser, E. (2011). The filter bubble: What the Internet is hiding from you. Penguin UK. This book by Eli Pariser explores the concept of filter bubbles and their impact on individuals and society.
 
@@ -151,5 +148,3 @@ Note: If you believe you have found a technical mistake in my blog post, please 
 3. Dubois, E., & Blank, G. (2018). The echo chamber is overstated: the moderating effect of political interest and diverse media. Information, Communication & Society, 21(5), 729-745. This study challenges the notion that filter bubbles lead to polarization and echo chambers, finding that individuals with high levels of political interest and exposure to diverse media are less likely to be affected by filter bubbles.
 
 4. Tufekci, Z. (2015). Algorithmic harms beyond Facebook and Google: Emergent challenges of computational agency. Journal of Information, Communication and Ethics in Society, 13(1), 14-29. This article discusses the potential harms of algorithmic filtering, including the formation of filter bubbles and their impact on individuals' worldviews and beliefs.
-
-5. Guess, A. M., & Nyhan, B. (2019). The challenges of correcting misperceptions in the digital age. Journal of Applied Research in Memory and Cognition, 8(4), 403-409. This article examines the difficulty of correcting misinformation and false beliefs in an era of filter bubbles and social media algorithms that reinforce individuals' existing beliefs and biases.
