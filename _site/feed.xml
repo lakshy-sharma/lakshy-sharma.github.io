@@ -1,13 +1,203 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-07T23:10:13+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thought Archive</title><subtitle>The thought archive is an open source tech blog maintained by Lakshy Sharma. It is home to all kind of tech knowledge.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-12-06T21:00:00+05:30</published><updated>2022-12-06T21:00:00+05:30</updated><id>http://localhost:4000/jekyll/update/2022/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-08T21:32:14+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thought Archive</title><subtitle>The thought archive is an open source tech blog maintained by Lakshy Sharma. It is home to all kind of tech knowledge.</subtitle><entry><title type="html">Openstack in 15 Minutes: A Beginners Guide To Hosting Private Cloud.</title><link href="http://localhost:4000/2022/12/08/openstack-learning-new-lessons.html" rel="alternate" type="text/html" title="Openstack in 15 Minutes: A Beginners Guide To Hosting Private Cloud." /><published>2022-12-08T00:00:00+05:30</published><updated>2022-12-08T00:00:00+05:30</updated><id>http://localhost:4000/2022/12/08/openstack-learning-new-lessons</id><content type="html" xml:base="http://localhost:4000/2022/12/08/openstack-learning-new-lessons.html">&lt;div style=&quot;text-align: center&quot;&gt;&lt;img width=&quot;150&quot; height=&quot;150&quot; src=&quot;/assets/media/Virtualbox-logo.png&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+Deploying openstack is a daunting task and making a mistake in the early stages of deployment can prove to be headaches in the later stages of operation.
+If deployed correctly openstack can act as your reliable private cloud and help you sustain your business, if messed up slightly it has the potential to become a constant nightmare for the best of your system admins.
+Here is a list of mistakes you should avoid while you deploy openstack.
+&lt;!--display--&gt;
+Being honest this article is kind of summary of all the niche challenges I have faced while setting up the openstack environment. I hope you will learn a lot from the mistakes I made.&lt;/p&gt;</content><author><name>Lakshy Sharma</name></author><summary type="html">Deploying openstack is a daunting task and making a mistake in the early stages of deployment can prove to be headaches in the later stages of operation. If deployed correctly openstack can act as your reliable private cloud and help you sustain your business, if messed up slightly it has the potential to become a constant nightmare for the best of your system admins. Here is a list of mistakes you should avoid while you deploy openstack. Being honest this article is kind of summary of all the niche challenges I have faced while setting up the openstack environment. I hope you will learn a lot from the mistakes I made.</summary></entry><entry><title type="html">Creating a Virtual Cybersecurity Lab using Virtual Box</title><link href="http://localhost:4000/2021/05/29/virtual-cybersecurity-lab.html" rel="alternate" type="text/html" title="Creating a Virtual Cybersecurity Lab using Virtual Box" /><published>2021-05-29T00:00:00+05:30</published><updated>2021-05-29T00:00:00+05:30</updated><id>http://localhost:4000/2021/05/29/virtual-cybersecurity-lab</id><content type="html" xml:base="http://localhost:4000/2021/05/29/virtual-cybersecurity-lab.html">&lt;div style=&quot;text-align: center&quot;&gt;&lt;img width=&quot;150&quot; height=&quot;150&quot; src=&quot;/assets/media/Virtualbox-logo.png&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+For people who practice cybersecurity, it is often hard to find a place where we can practice our skills safely.&lt;br /&gt;
+In this article I will describe how to setup a virtual cybersecurity lab that is completely isolated from outside world using Virtual Box. You can use this lab to simulate a virtual network and practice without having any fear of actually disrupting real networks. The networks we will create can also be used for malware analysis and understanding how malware spreads on a real network without having to worry about damaging real world computers.&lt;br /&gt;
+&lt;!--display--&gt;
+Points to Note:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Follow the links provided as you go, this will help you understand what is going on.&lt;/li&gt;
+  &lt;li&gt;You must understand no software is perfect and hyper-visors can also be prone to attacks, before experimenting with a live malware make sure your version of software is immune. I have no responsibility in case something goes down (gets damaged).&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;virtual-box&quot;&gt;Virtual Box.&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;The virtual box is a hyper-visor software which allows us to create virtual computers inside our real machines, the virtual machines created can be configured to be completely isolated from real world and can be used as secure sandboxes for experiments. Such isolated virtual machines can be used for malware analysis and can even be used for creating servers that are perfectly isolated from rest of the machine.&lt;br /&gt;
+In our case we will be using this software for creating 2 virtual computers inside our main computer and then we will be linking them together to create a virtual network of computers, a network that is completely isolated from real world.&lt;br /&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;internal-networks&quot;&gt;Internal Networks.&lt;/h2&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Virtual box provides us a feature called ‘The Internal Network’, it is a feature that allows us to create a network of virtual computers inside the real machine which is completely isolated from the real world. These networks will only connect the virtual computers that we create and will be completely disconnected from outer world thus, making them a very safe place to practice cybersecurity skills and performing forensic analysis of malware samples.&lt;/p&gt;
+
+&lt;h2 id=&quot;system-requirements&quot;&gt;System Requirements.&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;OS: Windows/Linux (I do not know if MacOS supports this software.)&lt;/li&gt;
+  &lt;li&gt;RAM: 8GB Recommended minimum, the more the better.&lt;/li&gt;
+  &lt;li&gt;Software: Oracle Virtual Box, Kali Linux image, Kioptrix Image.&lt;/li&gt;
+  &lt;li&gt;Internet Connection for Downloading softwares and OS. (Approx 4.5 GB)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once we have completed all the requirements we can move ahead to creating our own cybersecurity lab.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1--downloading-virtual-box&quot;&gt;Step 1 : Downloading Virtual Box.&lt;/h2&gt;
+
+&lt;p&gt;Go to the &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot;&gt;Oracle Virtual Box Website&lt;/a&gt; and download the virtual box software which matches your host machine requirements.&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;For Windows machines - Download 64bit.exe file.&lt;/li&gt;
+  &lt;li&gt;For Ubuntu linux  machines - Download 64bit.deb file&lt;/li&gt;
+  &lt;li&gt;For Fedora linux machines - Download 64bit.rpm file
+&lt;em&gt;If you use some other OS I do not think you need my help here.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;step-2--downloading-kali-linux-and-kioptrix&quot;&gt;Step 2 : Downloading Kali Linux and Kioptrix.&lt;/h2&gt;
+
+&lt;p&gt;In the cybersecurity lab we need an attack machine which will be kali linux and we need a machine to use as a target which wil be a vulnerable server.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;attack-machines-download&quot;&gt;Attack Machines Download.&lt;/h3&gt;
+
+&lt;p&gt;Download the &lt;a href=&quot;https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/#1572305786534-030ce714-cc3b&quot;&gt;Kali Linux&lt;/a&gt; OS image, you can follow the link and download the .ova file for virtual box, be careful NOT to download VM Ware images (usually in .7z format).&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vulnerable-server-download&quot;&gt;Vulnerable Server Download.&lt;/h3&gt;
+
+&lt;p&gt;The website &lt;a href=&quot;https://www.vulnhub.com/&quot;&gt;Vulnhub&lt;/a&gt; has many vulnerable machines that you can download for practice and &lt;a href=&quot;https://www.vulnhub.com/entry/kioptrix-level-1-1,22/&quot;&gt;Kioptrix&lt;/a&gt; is the one we are looking for, you can visit the links provided and download using torrent or mirror (as you prefer).&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3--setting-up-internal-network&quot;&gt;Step 3 : Setting up Internal Network.&lt;/h2&gt;
+
+&lt;p&gt;Once we have downloaded everything we are ready to go ahead and set up the lab.&lt;br /&gt;
+To make sure the lab is disconnected from the internet we will make use of the Virtual Box feature named &lt;a href=&quot;https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/network_internal.html&quot;&gt;Internal Networks&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before we move ahead I would strongly recommend a read on network basics.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We are going to setup an internal network which will dynamically assign IP address to the machines connected.&lt;/li&gt;
+  &lt;li&gt;To setup such a network which can dynamically assign IPs to machines we need to assign a “dhcp server” which has the responsibility to automatically assign IP addresses to different machines that will connect to our network.&lt;/li&gt;
+  &lt;li&gt;What we are aiming to accomplish in below section is best described in 2 points.:
+    &lt;ul&gt;
+      &lt;li&gt;Creating a virtual network and assigning it a name.&lt;/li&gt;
+      &lt;li&gt;Creating a dhcp server for the network using a command known as vboxmanage, this command is used to manage the virtual box settings.&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;linux-users&quot;&gt;Linux Users.&lt;/h3&gt;
+
+&lt;p&gt;Open your linux terminal and type the following command.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vboxmanage dhcpserver add --netname vlab --ip 10.10.10.1 --netmask 255.255.255.0 --lowerip 10.10.10.2 --upperip 10.10.10.250 --enable
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The explanation to code.&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;vboxmanage - Command to control virtual box settings.&lt;/li&gt;
+  &lt;li&gt;dhcpserver add - Command to create a dhcpserver.&lt;/li&gt;
+  &lt;li&gt;–netname - Parameter to assign name to our Internal Network in this case the name given is “vlab” which you can change as per your needs.&lt;/li&gt;
+  &lt;li&gt;–ip - Assign an IP to our dhcp server here our choice is 10.10.10.1.&lt;/li&gt;
+  &lt;li&gt;–netmask - Give the netmask of the network, this is usually used to control how many ip addresses can be assigned in a network.&lt;/li&gt;
+  &lt;li&gt;–lowerip - Give the lower ip limit that our dhcp server can assign.&lt;/li&gt;
+  &lt;li&gt;–upperip - Give the upper ip limit that our dhcp server can assign (must be lesser than what your netmask allows, our netmask allows 256 IPs and 250 is a safe choice.).&lt;/li&gt;
+  &lt;li&gt;–enable - Enable our network and server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;windows-users&quot;&gt;Windows Users&lt;/h3&gt;
+
+&lt;p&gt;Open your command prompt and type th following command.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vboxmanage dhcpserver add --netname vlab --ip 10.10.10.1 --netmask 255.255.255.0 --lowerip 10.10.10.2 --upperip 10.10.10.250 --enable
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The explanation has been provided above.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4--importing-machines-and-setting-them-up&quot;&gt;Step 4 : Importing Machines and Setting Them Up.&lt;/h2&gt;
+
+&lt;p&gt;In this section we will be setting up our attack and target machines.&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-kali-linux-attack-machine&quot;&gt;Setting up Kali Linux. (Attack Machine)&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open Virtual Box.&lt;/li&gt;
+  &lt;li&gt;Go to : File -&amp;gt; Import Appliance&lt;/li&gt;
+  &lt;li&gt;Select empty field named file and use the side button to browse and choose the OS you want to import.&lt;/li&gt;
+  &lt;li&gt;Browse for your kali linux.ova file you downloaded and select it.&lt;/li&gt;
+  &lt;li&gt;The system shows you recommended settings which you can change.
+    &lt;ul&gt;
+      &lt;li&gt;Change CPU cores to 3 and RAM to 2500MB.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Start the import by clicking on import button on lower left.&lt;/li&gt;
+  &lt;li&gt;Once Kali linux linux is imported I suggest you should further adjust a few settings to access the internal network and isolate the machine. You can use some of my preferences for isolating and setting up the machine..
+    &lt;ul&gt;
+      &lt;li&gt;Go to audio and usb controller settings and disable Audio and USB Controllers. (For isolating machine physically)&lt;/li&gt;
+      &lt;li&gt;Go to Network Settings and Change the Wireless adapter from ‘NAT’ to Internal Network and name of network must be ‘vlab’.
+        &lt;ul&gt;
+          &lt;li&gt;Here you can change this setting back to NAT whenever you want to access the open internet.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now come back and start the kali linux machine.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The machine should start up and once it is loaded you can put in the default user and password (kali,kali) for logging into the kali linux.&lt;br /&gt;
+Once you are logged in open the terminal by using Ctrl+Alt+T and type the command : ‘ip a’.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the command output you will be able to notice the Ethernet setting represented by eth0, it shows what IP has been assigned to you by the dhcpserver.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also check if internet is available to opening firefox and trying to access google, it &lt;em&gt;MUST&lt;/em&gt; give an error as page not reachable. This error means you are disconnected from internet.&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-kioptrix-vulnerable-machine&quot;&gt;Setting up Kioptrix. (Vulnerable Machine)&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open Virtual Box.&lt;/li&gt;
+  &lt;li&gt;Go to : Machine -&amp;gt; New Machine.&lt;/li&gt;
+  &lt;li&gt;Write the name of machine ‘Kioptrix Level 1’&lt;/li&gt;
+  &lt;li&gt;The operating System is Linux and Version is Linux 2.4(64 bit) which you must select from the dropdown box.&lt;/li&gt;
+  &lt;li&gt;Press Next and select the amount of RAM to be allotted to this machine (recommended is 512 MB)&lt;/li&gt;
+  &lt;li&gt;On Next Screen Select “Do Not Add a Virtual Hard Disk” and click on create.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once the machine has been created we need to change a few settings and add our OS to make it bootable.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Select Kioptrix Machine and enter the settings.&lt;/li&gt;
+  &lt;li&gt;Disable Audio and USB controllers. (This is important if you do not do this machine will give kernel panics.)&lt;/li&gt;
+  &lt;li&gt;Select Network tab and use the internal network with name vlab.
+    &lt;ul&gt;
+      &lt;li&gt;Go to advanced network settings and change the adapter from whatever it is currently to PCnet-PCI II.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once setup is completed add your bootable drive.
+    &lt;ul&gt;
+      &lt;li&gt;Unrar the rar file download and it must contain a .vmdk file this your OS image.&lt;/li&gt;
+      &lt;li&gt;Go to Storage Tab and in the heading Controller:IDE add a hard drive (The icon is square please be careful as a mistake will make machine unusable.)&lt;/li&gt;
+      &lt;li&gt;Select the hard drive icon and browse system for selecting the Kioptrix.vmdk file that you extracted.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once the setup is done start your machine.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If every setting was done properly the machine should automatically connect to the internal network once startup is complete.&lt;br /&gt;
+As Kioptrix is a machine you are supposed to hack I cannot give you the passwords but we have a method of checking whether the machine is online.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to find your machine?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Open terminal in Kali Linux and type ‘sudo arp-scan -l’ it will list all machines that responded to arp packets in your network. (10.0.10.1 is your dhcpserver) the other machine is Kioptrix.&lt;br /&gt;&lt;br /&gt;
+Just to double check you can scan for the OS version of machine you are targeting using Nmap. The command to perform this action is given as:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nmap -O --osscan-guess 10.10.10.x 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here x is IP address you found in arp scan. If the result gives Linux 2.2/2.4 as a result you know it is kioptrix (To know why read the documentation of machine).&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;recommended-security-measures&quot;&gt;Recommended Security Measures.&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Disable all USB connections from machines to avoid access to usb drives.&lt;/li&gt;
+  &lt;li&gt;Do not use shared folders in case the machine is being used for malware analysis.&lt;/li&gt;
+  &lt;li&gt;Disable audio ports.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I hope you found this article helpful and informative.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alvida.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: If you believe you have found a technical mistake in my blog post please contact me via email.&lt;/p&gt;
+
+&lt;p&gt;Attributions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Virtualbox logo : Oracle Corporation, GPLv2 &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/gpl-2.0.html&quot;&gt;https://www.gnu.org/licenses/old-licenses/gpl-2.0.html&lt;/a&gt;, via Wikimedia Commons&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Lakshy Sharma</name></author><summary type="html">For people who practice cybersecurity, it is often hard to find a place where we can practice our skills safely. In this article I will describe how to setup a virtual cybersecurity lab that is completely isolated from outside world using Virtual Box. You can use this lab to simulate a virtual network and practice without having any fear of actually disrupting real networks. The networks we will create can also be used for malware analysis and understanding how malware spreads on a real network without having to worry about damaging real world computers. Points to Note: Follow the links provided as you go, this will help you understand what is going on. You must understand no software is perfect and hyper-visors can also be prone to attacks, before experimenting with a live malware make sure your version of software is immune. I have no responsibility in case something goes down (gets damaged).</summary></entry></feed>
