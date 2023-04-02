@@ -7,25 +7,25 @@ author: "Lakshy Sharma"
 
 <div style="text-align: center"><img align="center" width="426" height="240" src="/The-Thought-Archive/assets/media/Filter-bubbles.jpg"></div>
 <br><br>
-The world is changing.
-The term 'cyberspace' now includes our physical world. But what we often miss is how the elements of cyberspace that we thought were confined behind the wall of internet are starting to influence our brains, how the elements of cyberspace are starting to change how we think and interact with the physical world. 
+The world is undergoing a transformation, and the lines between cyberspace and the physical world are blurring. What many of us fail to realize is how the elements of cyberspace, once thought to be confined behind the walls of the internet, are beginning to impact our thoughts and actions in the physical world.
 
-In the era where people are willing to give away their privacies for a comfort of few clicks I will try to answer some important questions.
-1. How exposed are we on internet?
-2. How is Big Tech using our data and why should you care?
-3. How much comfort is too much?
+In an era where people willingly trade privacy for a few clicks of convenience, it's crucial to ask some critical questions. 
+1. How much of our personal information is exposed online? 
+2. How are big tech companies using our data, and what are the implications? 
+3. When does the pursuit of comfort cross the line into the realm of overindulgence?
+
+Through this post I intend to show you how technology is subtly impacting our daily decisions and what can we do to reduce this influence.
 <!--display-->
 
-## The Internet and Privacy.
+## Privacy in the Age of Internet
 
-How do you feel when someone over the street looks in your home with binoculars?
-If the answer is uncomfortable, congratulations! You understand the concept of privacy.
+Imagine someone peering into your home with binoculars from the street. Most of us would feel uncomfortable with that, and rightfully so. It's an invasion of our privacy.
 
-The internet has brought us together, but it has also amplified our need to express ourselves. We all like to share our achievements, happiness, and thoughts on things we care about with our loved ones. Each one of us has a group of people we trust and know will understand our perspective and not use our words against us. But what will happen if someone you don't trust starts listening to these conversations? 
+The internet has brought us closer together, but it has also increased our need to express ourselves. We love to share our accomplishments, happiness, and opinions with our trusted friends and family. But what happens when someone we don't trust starts listening in on these conversations?
 
-When you sign up for any online messaging service to talk with people you trust, you are essentially inserting a middleman (the host of the service) and trusting them not to listen in on the conversation. So if the middleman has all your data, how can you hold them accountable if they start making bad use of it? The privacy policy you just ignored and signed before using the service is your only tool against these service providers, and if you did not check it before signing up, you don't have much control.
+When you sign up for an online messaging service to talk with your loved ones, you are essentially introducing a middleman – the host of the service – and trusting them not to eavesdrop on your conversations. If the middleman has access to all your data, what happens if they misuse it? Unfortunately, most of us don't take the time to read the privacy policy or terms of service before using these services, leaving us vulnerable to potential abuses.
 
-Therefore, it is essential to read the terms of service and privacy policy of any service you use. One great, free tool to help with this is <a href= "https://tosdr.org/">https://tosdr.org/</a>. Just input the name of the service, and you can get an overview of their terms of service and privacy policy.
+To protect ourselves, it's crucial to read the terms of service and privacy policy of any service we use. Fortunately, there are free tools like <a href= "https://tosdr.org/">tosdr</a> that can help with this. By simply inputting the name of the service, you can get an overview of their terms of service and privacy policy. Don't leave your privacy up to chance – take control and protect yourself online.
 
 ## What is Metadata and how do companies use it?
 
