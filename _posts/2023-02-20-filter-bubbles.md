@@ -141,10 +141,6 @@ Note: If you believe you have found a technical mistake in my blog post, please 
 
 ## References
 
-1. Pariser, E. (2011). The filter bubble: What the Internet is hiding from you. Penguin UK. This book by Eli Pariser explores the concept of filter bubbles and their impact on individuals and society.
-
-2. Flaxman, S. R., Goel, S., & Rao, J. M. (2016). Filter bubbles, echo chambers, and online news consumption. Public Opinion Quarterly, 80(S1), 298-320. This research article examines the role of algorithmic filtering in creating filter bubbles and echo chambers, and how these phenomena affect individuals' online news consumption.
-
-3. Dubois, E., & Blank, G. (2018). The echo chamber is overstated: the moderating effect of political interest and diverse media. Information, Communication & Society, 21(5), 729-745. This study challenges the notion that filter bubbles lead to polarization and echo chambers, finding that individuals with high levels of political interest and exposure to diverse media are less likely to be affected by filter bubbles.
-
-4. Tufekci, Z. (2015). Algorithmic harms beyond Facebook and Google: Emergent challenges of computational agency. Journal of Information, Communication and Ethics in Society, 13(1), 14-29. This article discusses the potential harms of algorithmic filtering, including the formation of filter bubbles and their impact on individuals' worldviews and beliefs.
+1. (**Ensuring that you do not fall prey to an echo chamber, have a look at the opposing argument**) Dubois, Elizabeth and Grant Blank. “The echo chamber is overstated: the moderating effect of political interest and diverse media.” Information, Communication & Society 21 (2018): 729 - 745.
+2. Pariser, Eli. “The Filter Bubble: What the Internet Is Hiding from You.” (2011).
+3. Flaxman, Seth, Sharad Goel and Justin M. Rao. “Filter Bubbles, Echo Chambers, and Online News Consumption.” PSN: Political Communication (Topic) (2016): n. pag.
